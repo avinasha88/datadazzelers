@@ -1,0 +1,77 @@
+{
+    "benchmarkDetails": [
+        {
+            "esgIndicators": "Net Zero Target",
+            "esgType": "Environmental",
+            "primaryDetails": "The report does not mention a Net Zero Target for SPX Technologies.",
+            "question": "what is the Net Zero Target for company?",
+            "secondaryDetails": ""
+        },
+        {
+            "esgIndicators": "Emissions Reduction Target",
+            "esgType": "Environmental",
+            "primaryDetails": "The report does not specifically mention a company strategy to reduce emissions.",
+            "question": "what is the interim emissions reduction target for company?",
+            "secondaryDetails": ""
+        },
+        {
+            "esgIndicators": "Renewable Electricity Target",
+            "esgType": "Environmental",
+            "primaryDetails": "The report does not mention a specific renewable electricity target for SPX Technologies.",
+            "question": "what is the renewable electricity target for company?",
+            "secondaryDetails": ""
+        },
+        {
+            "esgIndicators": "circulatory strategy & targets",
+            "esgType": "Environmental",
+            "primaryDetails": "The report does not mention a specific circulatory strategy or targets for the company.",
+            "question": "what is the circulatory strategy & targets for company?",
+            "secondaryDetails": ""
+        },
+        {
+            "esgIndicators": "Diversity Equity & Inclusion Target",
+            "esgType": "Social",
+            "primaryDetails": "The report does not specify a specific target on Diversity, Equity, and Inclusion. However, the company is committed to improving diversity and inclusion disclosures, including gender and ethnic representation data, for their workforce, leadership, and board of directors. They are actively working on initiatives to increase diversity and promote a more inclusive work environment.",
+            "question": "what is the company target on Diversity, Equity and inclusion?",
+            "secondaryDetails": ""
+        },
+        {
+            "esgIndicators": "Employee Health & Safety Audits",
+            "esgType": "Governance",
+            "primaryDetails": "SPX Technologies places a high priority on employee health and safety audits. They conduct regular evaluations and audits to ensure compliance with regulations and identify areas for improvement. This demonstrates their commitment to maintaining a safe working environment for their employees. They also recognize the importance of supply chain audits to ensure that their suppliers meet their standards for quality, ethics, and sustainability. These audits help them to identify any potential risks or non-compliance issues and implement action plans to address them. Overall, SPX Technologies takes a proactive approach to employee health and safety audits to continuously improve their EHS management practices.",
+            "question": "what is the company thinks on Employee Health & Safety Audits?",
+            "secondaryDetails": ""
+        },
+        {
+            "esgIndicators": "Supply Chain Audits",
+            "esgType": "Governance",
+            "primaryDetails": "Yes, SPX Technologies places a high priority on supply chain audits. The company conducts regular audits of its supply chain to ensure that suppliers meet the company's standards for quality, ethics, and sustainability. These audits help to identify any areas of non-compliance and provide opportunities for improvement. The findings from these audits are used to implement action plans and improve supply chain practices. Overall, supply chain audits are an important part of SPX Technologies' commitment to maintaining a responsible and sustainable supply chain.",
+            "question": "does company thinks any thing on Supply Chain Audits?",
+            "secondaryDetails": ""
+        },
+        {
+            "esgIndicators": "MSCI Sustainalysis",
+            "esgType": "ESG Score",
+            "primaryDetails": [
+                "SPX Technologies, Inc.",
+                "21.0",
+                "Medium Risk"
+            ],
+            "question": "What is ESG Score?",
+            "secondaryDetails": ""
+        },
+        {
+            "esgIndicators": "CDP",
+            "esgType": "Reporting",
+            "primaryDetails": "F",
+            "question": "What is CDP Value?",
+            "secondaryDetails": ""
+        }
+    ],
+    "entityName": "spx",
+    "metrics": {
+        "f1Score": "",
+        "leveragedModel": "GPT35Turbo-16K",
+        "timeTaken": 32.73998915099946
+    }
+}

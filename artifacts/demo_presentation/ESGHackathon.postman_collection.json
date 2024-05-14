@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "abec98aa-11d0-4f44-88ea-40952c09dc82",
+		"name": "ESGHackathon",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11185552"
+	},
+	"item": [
+		{
+			"name": "uploadEntity",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/Sunil/Downloads/SPX.pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://datadazzelers.azurewebsites.net/esg/benchmark/upload/spx",
+					"protocol": "https",
+					"host": [
+						"datadazzelers",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"esg",
+						"benchmark",
+						"upload",
+						"spx"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "uploadEntitywithESGtypeandquestion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/Sunil/Downloads/SPX.pdf"
+						},
+						{
+							"key": "question",
+							"value": "what is the Net Zero Target for company?",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://datadazzelers.azurewebsites.net/esg/benchmark/upload/SPX/Environmental/Net Zero",
+					"protocol": "https",
+					"host": [
+						"datadazzelers",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"esg",
+						"benchmark",
+						"upload",
+						"SPX",
+						"Environmental",
+						"Net Zero"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "keepalive",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://datadazzelers.azurewebsites.net/esg/benchmark/keepalive",
+					"protocol": "https",
+					"host": [
+						"datadazzelers",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"esg",
+						"benchmark",
+						"keepalive"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

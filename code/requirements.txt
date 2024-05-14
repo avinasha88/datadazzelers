@@ -1,0 +1,9 @@
+Flask 
+AzureOpenAI
+OpenAI
+PyPDF2
+pdfplumber
+spacy
+bs4
+requests
+selenium

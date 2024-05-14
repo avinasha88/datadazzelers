@@ -1,0 +1,17 @@
+{
+"benchmarkdetails": {
+"esgIndicators": "Net Zero",
+"esgType": "Environmental",
+"primaryDetails": "The Net Zero Target for SPX Technologies is to achieve net zero greenhouse gas (GHG) emissions by
+2050. This means that the company aims to balance its GHG emissions with an equivalent amount of GHG removals or offsets
+by the year 2050, resulting in no net emissions being released into the atmosphere.",
+"question": "what is the Net Zero Target for company?",
+"secondaryDetails": ""
+},
+"entityName": "SPX",
+"metrics": {
+"f1Score": "",
+"leveragedModel": "GPT35Turbo-16K",
+"timeTaken": 14.154041373010841
+}
+}
